@@ -11,7 +11,7 @@ public class Main {
         numbers.add(10);
         numbers.add(3);
         numbers.add(92);
-        numbers.add(43); // this line should fail
+      //  numbers.add(43); // this line should fail
         System.out.println(numbers.getItems().size());
         FixedList<LocalDate> dates = new FixedList<>(2);
         dates.add(LocalDate.now());
